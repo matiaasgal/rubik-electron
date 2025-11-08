@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rubik Cube</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+      <h1 id="title">Algebra II | LCC USACH</h1>
+      <h2 id="subtitle">Desarrollado por Matias Galiano, Francisco Vera y Vicente Gamboa</h2>
+      <button id="startCube">Inciar</button>
+      <canvas id="cubeCanvas"></canvas>
+      <div id="controls">
+          <button id="reset">Reiniciar</button>
+          <button id="random">Random</button>
+      </div>
+      <div id="instructions">
+          <p> 
+            Recomendado ver desde la cara naranja! ☺️🍊 <br>
+            ↑ : Superior <br>
+            ↓ : Inferior <br>
+            ← : Izquierda <br>
+            → : Derecha  <br>
+            Q : Frente <br>
+            W : Trasero <br>
+            E : Centro Perpendicular <br>
+            R : Centro Paralelo <br>
+            Espacio : Centro Horizontal <br>
+          </p>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+      <script src="render.js"></script>
+  </body>
+</html>
